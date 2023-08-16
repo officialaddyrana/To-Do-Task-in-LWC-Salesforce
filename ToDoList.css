@@ -1,0 +1,21 @@
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-text {
+    flex-grow: 1;
+}
+
+.delete-btn {
+    color: #ff0000;
+    cursor: pointer;
+}
